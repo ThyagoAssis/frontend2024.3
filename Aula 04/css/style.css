@@ -1,0 +1,22 @@
+.container{
+    /*Podemos usar porcentagem ou pixels*/
+    width: 100%; /*Largura*/
+    height: 50px; /*Altura*/
+    background-color: #7f8c8d;
+    /*border: 10px solid #2c3e50;*/
+    border-top: 20px solid #2c3e50;
+    border-bottom: 50px solid #2c3e50;    
+} 
+
+.div1{
+    background-color: #2C3E50;
+    color: #fff; /* Muda a cor da fonte */
+    text-align: center; /*Centraliza o texto*/
+    border-radius: 20px; /*Deixa  borda redonda*/
+    padding: 50px; /*Expannde os espaços internos*/
+    width: 1010px;
+    height: 444px;
+    margin: auto; /*Trabalha as margens de forma automatica*/
+    margin-top: 70px; /*Trabalha as margens de cima*/
+}
+
