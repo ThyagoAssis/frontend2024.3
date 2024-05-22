@@ -1,0 +1,29 @@
+/*Corrige as margens, padding e bordar*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/*Formatação da lista*/
+.menu{
+    margin: 0;
+    padding: 0;
+    background-color: #34495e;
+    /* height: 30px; */
+    text-align: center;
+    padding: 20px;
+    
+}
+/*Formata o li dentro da classe menu*/
+.menu li{
+    display: inline; /*Coloca os itens na horizontal*/
+    margin-right: 20px;
+    /* align-items: end; */
+}
+.menu li a{
+    text-decoration: none; /*Retira o sublinhado*/
+    color: #95a5a6;
+    font-weight: bold; /*Coloca o texto em negrito*/
+} 
